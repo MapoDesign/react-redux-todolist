@@ -6,25 +6,6 @@ import { addTodo,deleteTodo } from './actions';
 import './App.css';
 import './ToDoList/ToDoList.css'
 
-const initTodos = [
-  {
-    name: 'Call my mum',
-    dueDate: new Date().toLocaleDateString(),
-    user_id : 1
-  },
-   {
-    name: 'Go to school',
-    dueDate: new Date().toLocaleDateString(),
-    user_id : 1
-  },
-    {
-    name: 'Do my homework',
-    dueDate: new Date().toLocaleDateString(),
-    user_id : 1
-  }
-
-];
-
 function App({addTodo, deleteTodo,todos}) {
  
   
